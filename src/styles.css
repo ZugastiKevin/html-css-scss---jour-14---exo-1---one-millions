@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-first {
+    margin: 1rem 0;
+    display: inline-block;
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.2rem;
+    background-color: oklch(0.704 0.191 22.216);
+}
+
+.btn-seconde {
+    margin: 1rem 0;
+    display: inline-block;
+    padding: 0.5rem;
+    color: oklch(0.637 0.237 25.331);
+    border: 2px solid oklch(0.87 0 0);
+    border-radius: 0.2rem;
+    background-color: white;
+}
