@@ -11,7 +11,7 @@ module.exports = {
         newgrey: '#f5f5f5',
       },
       fontFamily: {
-        arvo: ['Arvo Bold'],
+        arvo: ['Arvo Regular'],
       }
     },
   },

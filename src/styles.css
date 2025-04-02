@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Arvo Bold", sans-serif;
-    src: url(../assets/fonts/Arvo/Arvo-Bold.ttf);
+    font-family: "Arvo Regular";
+    src: url(../assets/fonts/Arvo/Arvo-Regular.ttf);
 }
 
 @keyframes button-animation {
@@ -27,6 +27,13 @@
 
 a:hover, a:hover span{
     animation: button-animation-rev 0.65s ease-out forwards;
+}
+
+.line {
+    width: 15%;
+    height: 1px;
+    display: block;
+    background-color: #e74c3c;
 }
 
 .btn-first {
